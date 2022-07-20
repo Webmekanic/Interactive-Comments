@@ -6,7 +6,7 @@ export const Wrapper = styled.section`
   color: ${(props) => props.theme.colors.grayishBlue};
   border-radius: 5px;
   padding: 10px 12px;
-  margin: 20px 0;
+  margin: 20px 10px;
   position: relative;
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
 

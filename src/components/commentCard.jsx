@@ -1,6 +1,7 @@
 import React from "react"
 import Card from "./shared/card/card"
 import user from "../images/avatars/image-amyrobson.png"
+import CommentVote from "./commentVote"
 import { CommentWrapper } from "./styled/comment"
 import { FaReply } from "react-icons/fa"
 
@@ -21,7 +22,7 @@ const commentCard = () => {
           responsiveness at various breakpoints works really well.
         </p>
         <div className="commentBtn">
-          <div>jdjjfjfj</div>
+          <CommentVote />
           <button className="replyBtn">
             <FaReply size={"13.3"} />
             Reply
