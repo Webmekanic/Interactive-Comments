@@ -1,4 +1,4 @@
-export const theme = {
+const theme = {
   colors: {
     // Primary
     moderateBlue: "hsl(238, 40%, 52%)",
@@ -12,4 +12,12 @@ export const theme = {
     veryLightGray: "hsl(228, 33%, 97%)",
     White: "hsl(0, 0%, 100%) ",
   },
+  fontSizes: {
+    // large:
+    // medium
+  },
+  mediaQueries: {
+    "below-768": `only screen and (max-width: 768px)`,
+  },
 }
+export default theme
