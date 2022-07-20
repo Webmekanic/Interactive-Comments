@@ -1,11 +1,11 @@
 import React from "react"
-import Card from "./components/shared/card/card"
+import CommentCard from "./components/commentCard"
+import "./app.css"
 
 function App() {
   return (
     <div className="App">
-      <h1>My Front End</h1>
-      <Card />
+      <CommentCard />
     </div>
   )
 }
