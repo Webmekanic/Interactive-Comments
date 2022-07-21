@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <CommentCard />
+      <CommentCard />
       <Button primary>Send</Button>
     </div>
   )

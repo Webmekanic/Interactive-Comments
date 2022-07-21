@@ -13,6 +13,10 @@ html{
   box-sizing: border-box;
   font-family: 'Rubik', sans-serif;
 }
+body{
+  background: hsl(228, 33%, 97%);
+
+}
 `
 
 export default GlobalStyle

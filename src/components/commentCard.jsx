@@ -3,7 +3,7 @@ import Card from "./shared/card/card"
 import user from "../images/avatars/image-amyrobson.png"
 import CommentVote from "./commentVote"
 import { CommentWrapper } from "./styled/comment"
-import { FaReply } from "react-icons/fa"
+import { FaReply, FaEdit } from "react-icons/fa"
 
 const commentCard = () => {
   return (
@@ -14,6 +14,7 @@ const commentCard = () => {
             <img src={user} alt="User" />
           </div>
           <h3 className="userName">amyrobson</h3>
+          <p className="youTag">you</p>
           <p className="createdDate">1 month ago</p>
         </div>
         <p className="comment">
@@ -24,7 +25,7 @@ const commentCard = () => {
         <div className="commentBtn">
           <CommentVote />
           <button className="replyBtn">
-            <FaReply size={"13.3"} />
+            <FaEdit size={"13.3"} />
             Reply
           </button>
         </div>

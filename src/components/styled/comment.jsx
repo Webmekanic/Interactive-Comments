@@ -6,6 +6,8 @@ export const CommentWrapper = styled.section`
   align-items: center;
   text-align: center;
   padding-bottom: 10px;
+  // border: 2px solid red;
+ 
 
   .styledImg{
   height: 35px;
@@ -25,8 +27,17 @@ export const CommentWrapper = styled.section`
     font-size: 16px;
     color:  ${(props) => props.theme.colors.darkBlue};
   }
+  .youTag{
+    // border: 2px solid red;
+    margin-left: 0.35rem;
+    background-color: ${(props) => props.theme.colors.moderateBlue};
+    color: white;
+    padding: 0.1rem 0.4rem;
+    font-size: 0.8rem;
+    border-radius: 0.15rem;
+  }
   .createdDate{
-    margin-left: 0.825rem;
+    margin-left: 0.4rem;
    color: ${(props) => props.theme.colors.grayishBlue};
     font-weight: 500;
     font-size: 16px;

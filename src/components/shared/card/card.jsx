@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 export const Wrapper = styled.section`
-  background-color: ${(props) => props.theme.colors.White};
+  background: ${(props) => props.theme.colors.White};
   color: ${(props) => props.theme.colors.grayishBlue};
   border-radius: 5px;
   padding: 10px 12px;
