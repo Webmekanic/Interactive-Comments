@@ -35,7 +35,7 @@ export const CommentWrapper = styled.section`
 .comment{
   line-height: 1.4rem;
   color: ${(props) => props.theme.colors.grayishBlue};
-  font-size: 1.0313rem;
+  font-size: 0.95rem;
   
 
 }
