@@ -10,6 +10,4 @@ export const StyledButton = styled.button`
   border-radius: 0.5rem;
   font-weight: 400;
   text-transform: uppercase;
-  float: right;
-  margin-right: 0.4rem;
 `
