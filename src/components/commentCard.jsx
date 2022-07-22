@@ -4,6 +4,7 @@ import user from "../images/avatars/image-amyrobson.png"
 import CommentVote from "./commentVote"
 import { CommentWrapper } from "./styled/comment"
 import { FaReply, FaEdit } from "react-icons/fa"
+import { MdDelete } from "react-icons/md"
 
 const commentCard = () => {
   return (
@@ -24,10 +25,19 @@ const commentCard = () => {
         </p>
         <div className="commentBtn">
           <CommentVote />
-          <button className="replyBtn">
-            <FaEdit size={"13.3"} />
-            Reply
-          </button>
+          <div className="commentIcons">
+            <button
+              className="replyBtn"
+              style={{ color: "hsl(358, 79%, 66%)" }}
+            >
+              <MdDelete size={"17"} />
+              Delete
+            </button>
+            <button className="replyBtn">
+              <FaReply size={"17"} />
+              Reply
+            </button>
+          </div>
         </div>
       </CommentWrapper>
     </Card>

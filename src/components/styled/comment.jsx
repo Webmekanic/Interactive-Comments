@@ -58,11 +58,16 @@ export const CommentWrapper = styled.section`
 padding-top: 1rem;
 text-align: justify;
 }
+.commentIcons{
+display: flex;
+flex: row;
+grid-gap: 1rem;
+}
 .replyBtn{
   color: ${(props) => props.theme.colors.moderateBlue};
   font-weight: 600;
   display: flex;
-  grid-gap:0.4rem;
+  grid-gap:0.3rem;
   align-items: center;
   background-color: transparent;
   border: none;
