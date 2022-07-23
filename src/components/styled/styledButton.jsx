@@ -6,8 +6,13 @@ export const StyledButton = styled.button`
   color: #fff;
   outline: none;
   border: none;
-  background-color: ${(props) => props.theme.colors.moderateBlue};
   border-radius: 0.5rem;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
+  background-color: ${(props) =>
+    props.text === "UPDATE" || props.text === "REPLY" || props.text === "SEND"
+      ? props.theme.colors.moderateBlue
+      : "green"};
+
+  // ${(props) => props.theme.colors.moderateBlue};
 `
