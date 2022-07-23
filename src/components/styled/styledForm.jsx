@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const StyledForm = styled.section`
   .textArea {
-    // border: 2px solid red;
     width: 100%;
     height: 8rem;
     border-radius: 8px;
