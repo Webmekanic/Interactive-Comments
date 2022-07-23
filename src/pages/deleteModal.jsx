@@ -1,7 +1,6 @@
 import React from "react"
 import Button from "../components/shared/button"
 import { DeleteDialog } from "../components/styled/deleteDialog"
-import { StyledButton } from "../components/styled/styledButton"
 
 const DeleteModal = () => {
   return (
@@ -12,8 +11,10 @@ const DeleteModal = () => {
           Are you sure you want to delete this comment? This will remove the
           comment and can't be undone
         </p>
-        {/* Button Here */}
-        <Button text={"REPLY"}>hdhdhdh</Button>
+        <div className="modalBtn">
+          <Button text={"CANCEL"}>NO, CANCEL</Button>
+          <Button text={"DELETE"}>YES, DELETE</Button>
+        </div>
       </section>
     </DeleteDialog>
   )

@@ -9,10 +9,11 @@ export const StyledButton = styled.button`
   border-radius: 0.5rem;
   font-weight: 600;
   text-transform: uppercase;
+  cursor: pointer;
   background-color: ${(props) =>
     props.text === "UPDATE" || props.text === "REPLY" || props.text === "SEND"
       ? props.theme.colors.moderateBlue
-      : "green"};
-
-  // ${(props) => props.theme.colors.moderateBlue};
+      : props.text === "CANCEL"
+      ? props.theme.colors.grayishBlue
+      : props.theme.colors.softRed};
 `
