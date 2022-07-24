@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
 export const StyledButton = styled.button`
-  padding: 0.73rem 1rem;
-  font-size: clamp(1rem, 2vw, 1.2rem);
+  padding: 0.73rem 1.3rem;
+  font-size: clamp(0.9rem, 2vw, 1rem);
   color: #fff;
   outline: none;
   border: none;
